@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-       imagename = "austinobioma/tomcat"
+       imagename = "nbentoro12/awesome"
        registryCredential = 'DockerHub'
        dockerImage = ''
            }
